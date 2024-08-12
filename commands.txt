@@ -1,0 +1,6 @@
+Office:
+slmgr /skms dc1-kms-01.ptsecurity.ru:1688
+slmgr /ato
+
+XDR:
+msiexec /quiet /i "vxagent-2.0.0.3295_x64.msi" VXSERVER_CONNECT=wss://xdr-ext.ptsecurity.ru:8443
